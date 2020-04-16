@@ -24,6 +24,7 @@ class CurrentWeatherViewController: WeatherViewController {
         l.textAlignment = .center
         l.font = UIFont.systemFont(ofSize: 70, weight: .heavy)
         l.translatesAutoresizingMaskIntoConstraints = false
+        l.textColor = .white
         return l
     }()
     
@@ -41,6 +42,7 @@ class CurrentWeatherViewController: WeatherViewController {
         l.textAlignment = .center
         l.font = UIFont.preferredFont(forTextStyle: .title2)
         l.translatesAutoresizingMaskIntoConstraints = false
+        l.textColor = .white
         return l
     }()
     
@@ -49,6 +51,7 @@ class CurrentWeatherViewController: WeatherViewController {
         l.textAlignment = .center
         l.font = UIFont.systemFont(ofSize: 20, weight: .regular)
         l.translatesAutoresizingMaskIntoConstraints = false
+        l.textColor = .white
         return l
     }()
     
@@ -57,6 +60,7 @@ class CurrentWeatherViewController: WeatherViewController {
         l.textAlignment = .center
         l.font = UIFont.systemFont(ofSize: 17, weight: .light)
         l.translatesAutoresizingMaskIntoConstraints = false
+        l.textColor = .white
         return l
     }()
     

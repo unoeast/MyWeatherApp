@@ -44,7 +44,7 @@ class WeeklyForecastController: WeatherViewController {
     
     func setupView() {
         
-        view.backgroundColor = .white
+        view.backgroundColor = .clear
         
         view.addSubview(tableView)
         tableView.fillSuperview()
